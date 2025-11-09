@@ -1,0 +1,14 @@
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/CarStore.csproj.AssemblyReference.cache
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/Avalonia/resources
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/CarStore.GeneratedMSBuildEditorConfig.editorconfig
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/CarStore.AssemblyInfoInputs.cache
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/CarStore.AssemblyInfo.cs
+/home/baltasarq/tmp/CarStore/obj/Debug/net9.0/CarStore.csproj.CoreCompileInputs.cache
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/CarStore.csproj.AssemblyReference.cache
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/Avalonia/resources
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/CarStore.GeneratedMSBuildEditorConfig.editorconfig
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/CarStore.AssemblyInfoInputs.cache
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/CarStore.AssemblyInfo.cs
+/home/baltasarq/Dropbox/Prys/CarStore/obj/Debug/net9.0/CarStore.csproj.CoreCompileInputs.cache

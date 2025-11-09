@@ -1,0 +1,90 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ProjectMan.View.Gui2.MainGui2"
+        MinHeight="450" MinWidth="630"
+        Height="450" Width="530"
+        Title="Project Management">
+    <DockPanel>
+      <Menu DockPanel.Dock="Top">
+        <MenuItem Header="_File">
+          <MenuItem Name="OpClose" Header="_Close" />
+        </MenuItem>
+        <MenuItem Header="_Edit">
+          <MenuItem Name="OpNewProject" Header="New _project" />
+          <MenuItem Name="OpRenameProject" Header="Rename project" />
+          <MenuItem Name="OpDeleteProject" Header="Delete project" />
+          <MenuItem Header="-" />
+          <MenuItem Name="OpNewStudent" Header="New _student" />
+          <MenuItem Name="OpDeleteStudent" Header="Delete student" />
+          <MenuItem Header="-" />
+          <MenuItem Name="OpAddStudentToProject"
+                    Header="Add student to current project" />
+          <MenuItem Name="OpRemoveStudentFromProject"
+                    Header="Remove student from current project" />
+        </MenuItem>
+      </Menu>
+      <DockPanel Name="PnlProjectName"
+                 Margin="10"
+                 IsVisible="false"
+                 DockPanel.Dock = "Bottom">
+        <Label Margin="10" Padding="10"
+                DockPanel.Dock="Left">
+                Project's name</Label>
+        <Button DockPanel.Dock="Right"
+              Margin="10" Padding="10" Name="BtSaveProjectName">
+              Rename
+        </Button>
+        <TextBox Margin="10" Padding="10" Name="EdProjectName" />
+      </DockPanel>
+      <StackPanel DockPanel.Dock="Left" Margin="10">
+        <Button Name="BtNewProject"
+                Margin="10"
+                Padding="10">
+                New project
+        </Button>
+        <Button Name="BtRenameProject"
+                Margin="10"
+                Padding="10">
+                Rename project
+        </Button>
+        <Button Name="BtDeleteProject"
+                Margin="10"
+                Padding="10">
+                Delete project
+        </Button>
+      </StackPanel>
+      <StackPanel DockPanel.Dock="Right">
+        <Button Name="BtAddStudentToProject"
+                Margin="10"
+                Padding="10">
+                Add student
+        </Button>
+        <Button Name="BtRemoveStudentFromProject"
+                Margin="10"
+                Padding="10">
+                Remove student
+        </Button>
+      </StackPanel>
+      <SplitView  Margin="10"
+                  Padding="10"
+                  DisplayMode="Inline"
+                  Name="SvMainPanel"
+                  IsPaneOpen="true"
+                  OpenPaneLength="200">
+        <SplitView.Pane>
+            <ListBox
+                  Name="LbProjects"
+                  Margin="10"
+                  Padding="10"
+                  SelectionMode="Single,AlwaysSelected" />
+        </SplitView.Pane>
+        <ListBox Name="LbStudents"
+                 Margin="10"
+                 Padding="10"
+                 SelectionMode="Single,AlwaysSelected" />
+      </SplitView>
+    </DockPanel>
+</Window>

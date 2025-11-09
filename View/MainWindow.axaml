@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        MinHeight="400" MinWidth="500"
+        Height="400" Width="500"
+        x:Class="ProjectMan.View.MainWindow"
+        Title="Project manager, correct and incorrect">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+            <MenuItem Name="OpQuit" Header="_Quit" HotKey="Ctrl+Q"/>
+        </MenuItem>
+        <MenuItem Header="_View">
+            <MenuItem Name="OpGui1" Header="GUI _1" />
+            <MenuItem Name="OpGui2" Header="GUI _2" />
+        </MenuItem>
+        </Menu>
+        <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Margin="10" Padding="10" Name="BtGui1">GUI1 - Mal hecho</Button>
+            <Button Margin="10" Padding="10" Name="BtGui2">GUI2 - Bien hecho</Button>
+        </StackPanel>
+    </DockPanel>
+</Window>
