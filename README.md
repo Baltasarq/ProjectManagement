@@ -13,3 +13,8 @@ Just trigger the `dotnet` tool for building, or for running the app. This app us
 $ dotnet build
 $ dotnet run
 ```
+
+If you've downloaded the provided executable, then uncompress it wherever you want and type:
+
+    dotnet ProjectMan.dll
+
